@@ -19,5 +19,5 @@ maintainers:
     email: miroslav.hadzhiev@gmail.com
   - name: torstenwalter
     email: mail@torstenwalter.de
-engine: gotpl
+# engine: gotpl
 type: application
