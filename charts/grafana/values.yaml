@@ -305,6 +305,22 @@ extraContainerVolumes: []
 #  - name: empty-dir-volume
 #    emptyDir: {}
 
+# Karpenter provisioner parameters
+karpenter:
+  enabled: false
+  taints: []
+  requirements:
+    instanceTypes: []
+    regions: []
+    arch: []
+    capacityTypes: []
+  limits:
+    cpu:
+    memory:
+  provider: 
+    subnetSelector: {}
+    securityGroupSelector: {}
+
 ## Enable persistence using Persistent Volume Claims
 ## ref: http://kubernetes.io/docs/user-guide/persistent-volumes/
 ##
